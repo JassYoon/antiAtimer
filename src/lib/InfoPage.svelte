@@ -102,9 +102,8 @@
     <!-- 설정1: 세트 반복 수 -->
     <div class="flex flex-1 items-center gap-2 rounded-xl border border-slate-700 bg-slate-900 px-4 py-3">
       <input
-        type="number"
-        min="1"
-        max="20"
+        type="text"
+        inputmode="numeric"
         value={sets}
         onchange={(e) => saveSets(parseInt((e.target as HTMLInputElement).value) || 4)}
         class="w-14 rounded-lg border border-slate-600 bg-slate-800 px-2 py-1.5 text-center text-base font-semibold text-white focus:border-slate-400 focus:outline-none"
@@ -116,9 +115,8 @@
     <div class="flex flex-1 items-center gap-2 rounded-xl border border-slate-700 bg-slate-900 px-4 py-3">
       <span class="text-sm text-slate-400">휴식까지</span>
       <input
-        type="number"
-        min="1"
-        max="50"
+        type="text"
+        inputmode="numeric"
         value={restAfter}
         onchange={(e) => saveRestAfter(parseInt((e.target as HTMLInputElement).value) || 5)}
         class="w-14 rounded-lg border border-slate-600 bg-slate-800 px-2 py-1.5 text-center text-base font-semibold text-white focus:border-slate-400 focus:outline-none"
