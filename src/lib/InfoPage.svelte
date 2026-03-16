@@ -67,6 +67,29 @@
           도넛이 <span class="font-medium text-white">한 바퀴</span> 돌면 한 세트가 완료돼요.
         </p>
       </div>
+
+      <div class="mt-1 flex items-start gap-3">
+        <span class="mt-0.5 shrink-0 text-slate-400">
+          <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99" />
+          </svg>
+        </span>
+        <p class="leading-relaxed text-slate-300">
+          상단의 <span class="font-medium text-white">전환 버튼</span>으로 <span class="text-blue-400">4·4·4</span>와 <span class="text-violet-400">4·7·8</span> 모드를 바꿀 수 있어요. 4·7·8은 불안 완화에 효과적인 호흡법이에요.
+        </p>
+      </div>
+
+      <div class="mt-1 flex items-start gap-3">
+        <span class="mt-0.5 shrink-0 text-emerald-400">
+          <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1M4.22 4.22l.7.7m12.16 12.16.7.7M3 12H4m16 0h1M4.22 19.78l.7-.7M18.36 5.64l.7-.7" />
+            <circle cx="12" cy="12" r="4" />
+          </svg>
+        </span>
+        <p class="leading-relaxed text-slate-300">
+          아래에서 설정한 횟수만큼 타이머를 사용하면 <span class="font-medium text-emerald-400">휴식 모드</span>가 시작돼요. 잠시 쉰 뒤 계속할 수 있어요.
+        </p>
+      </div>
     </div>
   </div>
 
